@@ -1,0 +1,43 @@
+# Ignora arquivos de bytecode do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignora ambientes virtuais
+venv/
+env/
+.venv/
+ENV/
+
+# Ignora arquivos de configuração do VS Code
+.vscode/
+
+# Ignora arquivos de configuração do PyCharm
+.idea/
+*.iml
+
+# Ignora arquivos de cache e logs
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ignora arquivos de distribuição e build
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Ignora arquivos de banco de dados SQLite
+*.sqlite3
+
+# Ignora arquivos de ambiente
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignora arquivos de sistema
+.DS_Store
+Thumbs.db
